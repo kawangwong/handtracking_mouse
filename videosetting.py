@@ -7,3 +7,4 @@ def vidset(video, cv2):
   video.set(cv2.CAP_PROP_FRAME_WIDTH, width)
   video.set(cv2.CAP_PROP_FRAME_HEIGHT, height)
   video.set(cv2.CAP_PROP_FPS, 30)
+
