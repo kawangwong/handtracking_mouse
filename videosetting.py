@@ -1,3 +1,5 @@
+
+
 def vidset(video, cv2):
   video.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc('M','J','P','G'))
   width = 1920
