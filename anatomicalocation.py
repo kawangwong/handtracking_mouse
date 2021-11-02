@@ -10,8 +10,10 @@ def anatomical_coordinates(mp_drawing, hand_landmarks, image, jointName):
     newvalue_x = 1080 * x_digit/480
     y_digit = coordinates[1]
     newvalue_y = 1920 * y_digit/640
-    # pyautogui.FAILSAFE = False
+    pyautogui.FAILSAFE = False
     pyautogui.moveTo(x_digit, y_digit)
-    # time.sleep(1)
+    time.sleep(.05)
     # pyautogui.moveTo(500, 500)
+    ##note to self. the problem is the fact that this is still iterating through enumerable, so 20 values are shown and iterated through before the value changes, so we have to find a way to only
+    ##go trhough the value for 8 12 and 4
     print(newvalue_x, newvalue_y) ##the actual pixel location
