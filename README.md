@@ -28,6 +28,9 @@ For the therapy space, this can be used as a therapy tool to create treatment se
 In the realm of therapy, it can certainly be used as a replacement input for human interface with the computer, especially for patients that may no longer be able to use their
 hands or digits for trackpads or mouse movements.
 
+<h2>Instructions</h2>
+Coming soon, software is a work in progress.
+
 <h1>Disclaimer</h1>
 This is just a software used as a showcase and possible use in practical applications. I have not tested this as a use in a commercial setting and i take no responsibiliity for
 how the end user will use this. There is no support and will be used as is.
