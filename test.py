@@ -12,7 +12,8 @@ hands = mp_hands.Hands(
     min_detection_confidence=0.5,
     min_tracking_confidence=0.5)
 
-
+x_digit = 0
+y_digit = 0
 video = cv2.VideoCapture(1)
 if customVideoCapture == True:
   vidset(video, cv2)
@@ -29,13 +30,14 @@ while video.isOpened():
   image.flags.writeable = True
   image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
   if results.multi_hand_landmarks:
-    print(type(mp_hands.HandLandmark))
     for hand_landmarks in results.multi_hand_landmarks:
       if anatomyfinder == True:
         for jointName in mp_hands.HandLandmark: ##this line was placed here instead of part of function because of performance issues.
           anatomical_coordinates(mp_drawing, hand_landmarks, image, 8) #tracking tip of digit 2
-          anatomical_coordinates(mp_drawing, hand_landmarks, image, 4) #tracking tip of digit 1
-          anatomical_coordinates(mp_drawing, hand_landmarks, image, 12) #tracking tip of digit 3
+
+          # anatomical_coordinates(mp_drawing, hand_landmarks, image, 4) #tracking tip of digit 1
+          # anatomical_coordinates(mp_drawing, hand_landmarks, image, 12) #tracking tip of digit 3
+
       if drawAll == True:  ##this will draw all the landmarks
         mp_drawing.draw_landmarks(
           image,

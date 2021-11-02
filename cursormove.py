@@ -23,3 +23,4 @@ currentMouseX, currentMouseY = pyautogui.position()
 
 print(screenWidth, screenHeight)
 print(currentMouseX, currentMouseY)
+
