@@ -1,3 +1,5 @@
 customVideoCapture = False
 anatomyfinder = True
-drawAll = False
+drawAll = True
+buttonFunction = True
+showCamerafeed = True
