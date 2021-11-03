@@ -30,7 +30,30 @@ In the realm of therapy, it can certainly be used as a replacement input for hum
 hands or digits for trackpads or mouse movements.
 
 <h2>Instructions</h2>
-Coming soon, software is a work in progress.
+
+<h3>Installation</h3>
+
+This program was written using Python3. Installation Instructions can be found [here](https://www.python.org/downloads/).
+
+[Download](https://www.alphr.com/download-files-github/) the code or clone this repo, or even fork it.
+
+Open up the terminal and `python` or `python3` should be a command that is readily available to you. Troubleshooting for installation will not be covered here, but generally if they can not be invoked, it is most likely a issue with a [Path environment](https://docs.python.org/3/using/windows.html).
+
+Once python is installed, you need to use `pip` command to install the required libraries that this program needs. Usually that command is `pip install -r requirements.txt`
+
+Once that is done, just run the program in the terminal of your using `python script.py` or `python3 script.py`
+
+<h3>How to use</h3>
+
+The program has a user setting file, which can be used to toggle on and off various functions. The way this program works will be that the camera will see the hand, then take an input from that location relative to how your camera sees the image, and then convert that data into coordinates that are relative to the size of your screen. The program will also listen to inputs from the keyboard for the keyboard input for the letter "e" which will then invoke the left click function of a mouse.
+
+I have added custom settings to this to allow for also programmable keys to be used for left click mapping. For now, it will only take in letters and numbers as special characters can get a little too complex.
+
+<h3>Anticipated changes</h3>
+
+For now, I want to improve on some of the smoothness of the mouse movements as the program detects changes on a pixel level that can affect user experience since the detection of the data is converted from a small number to larger number in resolution. You can see in the code that the base camera input is 640x480 and upscaled to a higher resolution when used with a higher resolution screen.
+
+I also wanted to do gesture based digit tracking button clicks, but due to the jumpiness already and the high level of resource intense, I tried to lean down the use of as many resources as possible.
 
 <h1>Disclaimer</h1>
 This is just a software used as a showcase and possible use in practical applications. I have not tested this as a use in a commercial setting and i take no responsibiliity for
