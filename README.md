@@ -14,7 +14,7 @@ In this case, Google trained a machine learning model that can be used to track 
 The best of all is these programs can be run locally, with the constraints only being the end user's imagination and approach.
 
 
-For the end user, a camera will be used to capture data from the user. This data that the program will collect are anatomical landmarks on the hand.
+For the end user, a camera will be used to capture data from the user. This data that the program will collect are anatomical landmarks on the hand. The library called [cv2](https://opencv.org/) is what the python script utilizes for camera access.
 
 ![Landmarks](https://google.github.io/mediapipe/images/mobile/hand_landmarks.png)
 
