@@ -4,7 +4,7 @@ Project for building a HID (Human Interface Device) mouse using camera tracking 
 
 <h1>Purpose</h1>
 
-The purpose of this project was to write software that can be used on a computer to control a mouse cursor through the use of hand gestures.
+The purpose of this project was to write software that can be used on a computer to control a mouse cursor through the use of hand gestures. In doing so, I wanted learn how just how powerful these machine learning models are, how effective they can be used, and learn more about writing code in Python.
 
 <h2>How it works</h2>
 
@@ -18,8 +18,7 @@ For the end user, a camera will be used to capture data from the user. This data
 
 ![Landmarks](https://google.github.io/mediapipe/images/mobile/hand_landmarks.png)
 
-Once the software captures the landmarks, it input the data into another library call [pyautogui](https://pyautogui.readthedocs.io/en/latest/), which will tell the computer where to move the cursor
-relative to the location it is currently in.
+Once the software captures the landmarks, it input the data into another library call [pyautogui](https://pyautogui.readthedocs.io/en/latest/), which will tell the computer where to move the cursor relative to the location it is currently in.
 
 <h2>Use case scenario</h2>
 
@@ -54,6 +53,14 @@ I have added custom settings to this to allow for also programmable keys to be u
 For now, I want to improve on some of the smoothness of the mouse movements as the program detects changes on a pixel level that can affect user experience since the detection of the data is converted from a small number to larger number in resolution. You can see in the code that the base camera input is 640x480 and upscaled to a higher resolution when used with a higher resolution screen.
 
 I also wanted to do gesture based digit tracking button clicks, but due to the jumpiness already and the high level of resource intense, I tried to lean down the use of as many resources as possible.
+
+<h2>Learned</h2>
+
+From this, I learned more about data manipulation through the use of converting enumerables to string and string iteration. I've learned new built in methods such as `dir` to help debut and further understand libraries that have little documentation available. Last I've learned how to utilize return statements in a more efficient manner, which can help with future projects.
+
+<h3>Thanks</h3>
+
+I wanted to thank my classmate [Hector](https://www.linkedin.com/in/hector6921) for helping me troubleshoot some of the issues that I ran into regarding enumerable classes that are exist in this library and how data is placed. Hector is also exploring some of these applications now in the browser space as a result of looking at this project, so you should definitely check out his [work](https://github.com/hector6921).
 
 <h1>Disclaimer</h1>
 This is just a software used as a showcase and possible use in practical applications. I have not tested this as a use in a commercial setting and i take no responsibiliity for
