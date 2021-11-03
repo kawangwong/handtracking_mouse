@@ -58,10 +58,11 @@ I also wanted to do gesture based digit tracking button clicks, but due to the j
 
 From this, I learned more about data manipulation through the use of converting enumerables to string and string iteration. I've learned new built in methods such as `dir` to help debut and further understand libraries that have little documentation available. Last I've learned how to utilize return statements in a more efficient manner, which can help with future projects.
 
-<h3>Thanks</h3>
+<h2>Thanks</h2>
 
 I wanted to thank my classmate [Hector](https://www.linkedin.com/in/hector6921) for helping me troubleshoot some of the issues that I ran into regarding enumerable classes that are exist in this library and how data is placed. Hector is also exploring some of these applications now in the browser space as a result of looking at this project, so you should definitely check out his [work](https://github.com/hector6921).
 
 <h1>Disclaimer</h1>
+
 This is just a software used as a showcase and possible use in practical applications. I have not tested this as a use in a commercial setting and i take no responsibiliity for
 how the end user will use this. There is no support and will be used as is.
