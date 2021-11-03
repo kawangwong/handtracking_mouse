@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import pyautogui
 from anatomicalocation import anatomical_coordinates
-from usersetting import showCamerafeed, customVideoCapture, anatomyfinder, drawAll, buttonFunction
+from usersetting import showCamerafeed, customVideoCapture, anatomyfinder, drawAll, buttonFunction, buttonLetter
 from videosetting import vidset
 import keyboard
 
@@ -63,7 +63,7 @@ while video.isOpened():
       pyautogui.moveTo(screenWidth/2, screenHeight/2)
       ##one time counter to grab resolution size and cursor default to middle
     pyautogui.moveTo(movedigit2[0], movedigit2[1])
-    if keyboard.is_pressed('e') and buttonFunction == True:
+    if keyboard.is_pressed(buttonLetter) and buttonFunction == True:
       pyautogui.click()
     # print("outside", list[0])
     if showCamerafeed == True and drawAll == True:  ##this will draw all the landmarks if camera is on and landmark draw. Setting here to allow for CPU resource saving
