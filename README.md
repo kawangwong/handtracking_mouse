@@ -20,6 +20,8 @@ For the end user, a camera will be used to capture data from the user. This data
 
 Once the software captures the landmarks, it input the data into another library call [pyautogui](https://pyautogui.readthedocs.io/en/latest/), which will tell the computer where to move the cursor relative to the location it is currently in.
 
+See demo [here](https://github.com/kawangwong/handtracking_mouse/blob/main/demo.mp4) Download button is on the right.
+
 <h2>Use case scenario</h2>
 
 For end users, this can be a tool to just browse the computer with the hand as if it was an air gestured movement.
