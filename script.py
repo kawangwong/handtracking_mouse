@@ -2,7 +2,7 @@ import cv2
 import mediapipe as mp
 import pyautogui
 from anatomicalocation import anatomical_coordinates
-from usersetting import showCamerafeed, customVideoCapture, anatomyfinder, drawAll, buttonFunction, buttonLetter
+from usersetting import showCamerafeed, customVideoCapture, drawAll, buttonFunction, buttonLetter
 from videosetting import vidset
 import keyboard
 
