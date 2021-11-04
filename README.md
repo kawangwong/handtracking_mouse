@@ -1,6 +1,6 @@
 # handtracking_mouse
 
-Project for building a HID [Human Interface Device](https://en.wikipedia.org/wiki/Human_interface_device) mouse using camera tracking of digits through machine learning model MediaPipe from Google.
+Project for building a HID ([Human Interface Device](https://en.wikipedia.org/wiki/Human_interface_device)) mouse using camera tracking of digits through machine learning model MediaPipe from Google.
 
 
 <h1>Purpose</h1>
