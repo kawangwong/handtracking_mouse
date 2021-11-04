@@ -64,7 +64,7 @@ From this, I learned more about data manipulation through the use of converting 
 
 <h2>Thanks</h2>
 
-I wanted to thank my classmate [Hector](https://www.linkedin.com/in/hector6921) for helping me troubleshoot some of the issues that I ran into regarding enumerable classes that are exist in this library and how data is placed. Hector is also exploring some of these applications now in the browser space as a result of looking at this project, so you should definitely check out his [work](https://github.com/hector6921).
+I wanted to thank my classmate [Hector](https://www.linkedin.com/in/hector6921) for helping me troubleshoot some of the issues that I ran into regarding enumerable classes that exist in this library and how data is placed. Hector is also exploring some of these applications now in the browser space as a result of looking at this project, so you should definitely check out his [work](https://github.com/hector6921).
 
 <h1>Disclaimer</h1>
 
