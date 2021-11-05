@@ -11,7 +11,7 @@ The purpose of this project was to write software that can be used on a computer
 
 The software itself is written in a language called Python. The underlying core of this application uses a Python Library called [MediaPipe](https://google.github.io/mediapipe/solutions/hands). MediaPipe an organization from Google.
 Google's MediaPipe framework was used to create pre-trained machine learning models, which can be deployed in multiple applications and through different languages.
-In this case, Google trained a machine learning model that can be used to track 21 anatomiical landmarks.
+In this case, Google trained a machine learning model that can be used to track 21 anatomical landmarks.
 The best of all is these programs can be run locally, with the constraints only being the end user's imagination and approach.
 
 
